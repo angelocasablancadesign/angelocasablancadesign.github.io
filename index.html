@@ -28,12 +28,12 @@ nav{display:flex;gap:1.75rem}
 nav a{text-decoration:none;padding:.25rem 0;border-bottom:2px solid transparent}
 nav a:hover{border-color:var(--y)}
 /* hero */
-.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:2rem;padding-top:4rem;padding-bottom:5rem}
-h1{font-weight:300;font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.08;letter-spacing:-.01em;max-width:14ch;text-wrap:balance}
+.hero .wrap{padding-top:4rem;padding-bottom:5rem}
+h1{font-weight:300;font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.08;letter-spacing:-.01em;max-width:18ch;text-wrap:balance}
 .hero p{margin-top:1.5rem;max-width:46ch;font-size:1.25rem}
 .btn{display:inline-block;margin-top:2rem;padding:.9rem 1.6rem;background:var(--s);color:var(--w);text-decoration:none;font-weight:500;border:2px solid var(--s);transition:background .2s,color .2s}
 .btn:hover{background:var(--y);color:var(--s);border-color:var(--y)}
-.hero svg{width:100%;max-width:340px;height:auto;justify-self:end}
+
 /* sezioni */
 section{padding:5rem 0}
 h2{font-weight:300;font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.15;margin-bottom:2.5rem}
@@ -57,8 +57,8 @@ footer{padding:1.75rem 0;font-size:.95rem;font-weight:300}
 @media(max-width:760px){
  nav{gap:1.1rem;font-size:1rem}
  .brand small{display:none}
- .hero .wrap{grid-template-columns:1fr;padding-top:2rem;padding-bottom:3rem}
- .hero svg{order:-1;max-width:150px;justify-self:start}
+ .hero .wrap{padding-top:2rem;padding-bottom:3rem}
+ 
  section{padding:3.5rem 0}
  .servizi dl,.griglia{grid-template-columns:1fr}
  .thumb{aspect-ratio:4/3}
@@ -84,7 +84,6 @@ footer{padding:1.75rem 0;font-size:.95rem;font-weight:300}
     <p>Dall’immagine della tua attività ai progetti personali, dagli eventi ai materiali promozionali. Soluzioni grafiche pensate per ogni esigenza.</p>
     <a class="btn" href="https://wa.me/393922002203">Scrivimi su WhatsApp</a>
    </div>
-   <svg viewBox="21 4 24 28" role="img" aria-label="Simbolo del logo"><path class="b" d="M 43.792969 31.6875 L 44.753906 31.6875 L 44.753906 4.488281 L 43.792969 4.488281 Z M 43.792969 31.6875"/><path class="b" d="M 44.273438 16.96875 L 44.273438 19.207031 L 34.300781 19.207031 L 35.378906 16.96875 Z M 44.273438 16.96875"/><path class="b" d="M 28.527344 27.242188 L 35.378906 16.96875 L 36.53125 16.96875 L 29.328125 27.773438 C 29.054688 27.605469 28.785156 27.429688 28.527344 27.242188 Z M 28.527344 27.242188"/><path class="y" d="M 35.207031 31.6875 C 27.703125 31.6875 21.609375 25.59375 21.609375 18.085938 C 21.609375 10.582031 27.703125 4.488281 35.207031 4.488281 L 35.207031 6.753906 C 28.953125 6.753906 23.875 11.832031 23.875 18.085938 C 23.875 24.339844 28.953125 29.417969 35.207031 29.417969 Z M 35.207031 31.6875"/></svg>
   </div>
  </section>
 
