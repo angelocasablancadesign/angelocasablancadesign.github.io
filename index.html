@@ -6,10 +6,10 @@
 <title>Angelo Casablanca – Graphic designer per ristoranti, bar e hotel</title>
 <meta name="description" content="Menu, carta intestata, storie social e loghi per ristoranti, bar, hotel e strutture ricettive.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='5' fill='%23FFC700'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
+@font-face{font-family:Jost;font-style:normal;font-weight:300;font-display:swap;src:url(fonts/jost-latin-300-normal.woff2) format('woff2')}
+@font-face{font-family:Jost;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/jost-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Jost;font-style:normal;font-weight:500;font-display:swap;src:url(fonts/jost-latin-500-normal.woff2) format('woff2')}
 :root{--y:#FFC700;--s:#3E5E6F;--w:#FFFFFF;--max:1080px}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
@@ -52,7 +52,7 @@ h2{font-weight:300;font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.15;margin-
 .lavoro span{display:block;font-weight:300;font-size:1rem}
 .contatti{background:var(--y)}
 .contatti p{max-width:36ch;font-size:1.25rem}
-.contatti .tel{display:block;margin-top:1.25rem}
+.contatti .tel{display:block;margin-top:1rem}.contatti .tel+.tel{margin-top:.25rem}
 footer{padding:1.75rem 0;font-size:.95rem;font-weight:300}
 @media(max-width:760px){
  nav{gap:1.1rem;font-size:1rem}
@@ -121,9 +121,10 @@ footer{padding:1.75rem 0;font-size:.95rem;font-weight:300}
    <p>Scrivimi in chat: ti rispondo e valutiamo insieme cosa serve alla tua attività.</p>
    <a class="btn" href="https://wa.me/393922002203">Scrivimi su WhatsApp</a>
    <a class="tel" href="tel:+393922002203">392 200 2203</a>
+   <a class="tel" href="mailto:angelocasablanca.ac@gmail.com">angelocasablanca.ac@gmail.com</a>
   </div>
  </section>
 </main>
-<footer><div class="wrap">© 2026 Angelo Casablanca – graphic designer</div></footer>
+<footer><div class="wrap">© 2026 Angelo Casablanca – graphic designer · <a href="privacy.html">Informativa privacy</a></div></footer>
 </body>
 </html>

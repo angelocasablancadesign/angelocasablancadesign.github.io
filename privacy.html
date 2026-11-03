@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa privacy – Angelo Casablanca</title>
+<meta name="robots" content="noindex">
+<style>
+@font-face{font-family:Jost;font-style:normal;font-weight:300;font-display:swap;src:url(fonts/jost-latin-300-normal.woff2) format('woff2')}
+@font-face{font-family:Jost;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/jost-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Jost;font-style:normal;font-weight:500;font-display:swap;src:url(fonts/jost-latin-500-normal.woff2) format('woff2')}
+:root{--y:#FFC700;--s:#3E5E6F;--w:#FFFFFF;--max:1080px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:Jost,Futura,"Century Gothic",sans-serif;font-weight:400;font-size:1.125rem;line-height:1.6;color:var(--s);background:var(--w)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--y);outline-offset:3px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+.b{fill:var(--s)}.y{fill:var(--y)}
+/* header */
+header .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem 1rem;padding-top:1.5rem;padding-bottom:1.5rem}
+.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.brand svg{height:44px;width:auto}
+.brand b{display:block;font-weight:400;font-size:1.15rem;letter-spacing:.04em;line-height:1.1}
+.brand small{display:block;font-weight:300;font-size:.85rem;letter-spacing:.06em}
+nav{display:flex;gap:1.75rem}
+nav a{text-decoration:none;padding:.25rem 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--y)}
+/* hero */
+.hero .wrap{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:2rem;padding-top:4rem;padding-bottom:5rem}
+h1{font-weight:300;font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.08;letter-spacing:-.01em;max-width:14ch}
+.hero p{margin-top:1.5rem;max-width:40ch;font-size:1.25rem}
+.btn{display:inline-block;margin-top:2rem;padding:.9rem 1.6rem;background:var(--s);color:var(--w);text-decoration:none;font-weight:500;border:2px solid var(--s);transition:background .2s,color .2s}
+.btn:hover{background:var(--y);color:var(--s);border-color:var(--y)}
+.hero svg{width:100%;max-width:340px;height:auto;justify-self:end}
+/* sezioni */
+section{padding:5rem 0}
+h2{font-weight:300;font-size:clamp(1.8rem,3.6vw,2.6rem);line-height:1.15;margin-bottom:2.5rem}
+.servizi{background:var(--s);color:var(--w)}
+.servizi dl{display:grid;grid-template-columns:repeat(2,1fr);gap:0 3rem}
+.servizi dl div{padding:1.5rem 0;border-top:2px solid var(--y)}
+.servizi dt{font-weight:500;font-size:1.3rem;margin-bottom:.4rem}
+.servizi dd{font-weight:300;max-width:38ch}
+.griglia{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.lavoro{text-decoration:none}
+.thumb{position:relative;aspect-ratio:4/5;overflow:hidden;display:flex;align-items:flex-end;padding:1.25rem;background:var(--s);color:var(--w);font-weight:300;font-size:1.1rem}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.lavoro:nth-child(3n+2) .thumb{background:var(--y);color:var(--s)}
+.lavoro:nth-child(3n) .thumb{background:var(--w);color:var(--s);box-shadow:inset 0 0 0 2px var(--s)}
+.lavoro p{margin-top:.6rem;font-weight:500}
+.lavoro span{display:block;font-weight:300;font-size:1rem}
+.contatti{background:var(--y)}
+.contatti p{max-width:36ch;font-size:1.25rem}
+.contatti .tel{display:block;margin-top:1rem}.contatti .tel+.tel{margin-top:.25rem}
+footer{padding:1.75rem 0;font-size:.95rem;font-weight:300}
+@media(max-width:760px){
+ nav{gap:1.1rem;font-size:1rem}
+ .brand small{display:none}
+ .hero .wrap{grid-template-columns:1fr;padding-top:2rem;padding-bottom:3rem}
+ .hero svg{order:-1;max-width:150px;justify-self:start}
+ section{padding:3.5rem 0}
+ .servizi dl,.griglia{grid-template-columns:1fr}
+ .thumb{aspect-ratio:4/3}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+.testo{padding:2rem 1.5rem 5rem;max-width:calc(68ch + 3rem)}
+.testo h1{font-size:clamp(2rem,4.5vw,3rem);margin-bottom:1.5rem;max-width:none}
+.testo h2{font-size:1.4rem;font-weight:500;margin:2rem 0 .5rem}
+.testo p{margin-top:.6rem}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <a class="brand" href="index.html" aria-label="Torna alla home">
+   <svg viewBox="21 4 24 28" aria-hidden="true"><path class="b" d="M 43.792969 31.6875 L 44.753906 31.6875 L 44.753906 4.488281 L 43.792969 4.488281 Z M 43.792969 31.6875"/><path class="b" d="M 44.273438 16.96875 L 44.273438 19.207031 L 34.300781 19.207031 L 35.378906 16.96875 Z M 44.273438 16.96875"/><path class="b" d="M 28.527344 27.242188 L 35.378906 16.96875 L 36.53125 16.96875 L 29.328125 27.773438 C 29.054688 27.605469 28.785156 27.429688 28.527344 27.242188 Z M 28.527344 27.242188"/><path class="y" d="M 35.207031 31.6875 C 27.703125 31.6875 21.609375 25.59375 21.609375 18.085938 C 21.609375 10.582031 27.703125 4.488281 35.207031 4.488281 L 35.207031 6.753906 C 28.953125 6.753906 23.875 11.832031 23.875 18.085938 C 23.875 24.339844 28.953125 29.417969 35.207031 29.417969 Z M 35.207031 31.6875"/></svg>
+   <span><b>ANGELO CASABLANCA</b><small>graphic designer</small></span>
+  </a>
+  <nav aria-label="Principale"><a href="index.html">Home</a></nav>
+ </div>
+</header>
+<main class="testo">
+<h1>Informativa privacy</h1>
+<p>Informativa ai sensi dell’art. 13 del Regolamento UE 2016/679 (GDPR) per chi visita questo sito.</p>
+
+<h2>Titolare del trattamento</h2>
+<p>Angelo Casablanca, graphic designer.<br>Telefono: <a href="tel:+393922002203">392 200 2203</a><br>Email: <a href="mailto:angelocasablanca.ac@gmail.com">angelocasablanca.ac@gmail.com</a></p>
+
+<h2>Dati raccolti dal sito</h2>
+<p>Questo sito non utilizza cookie, non usa strumenti di analisi o di tracciamento, non contiene moduli di contatto e non carica contenuti da servizi di terze parti. Il sito non raccoglie quindi dati personali dei visitatori.</p>
+
+<h2>Hosting</h2>
+<p>Il sito è ospitato su GitHub Pages (GitHub, Inc.). Come per ogni servizio di hosting, il fornitore può registrare dati tecnici di navigazione, come l’indirizzo IP, per motivi di sicurezza e funzionamento. Questi dati sono trattati dal fornitore secondo la propria informativa privacy.</p>
+
+<h2>Contatti tramite telefono, WhatsApp o email</h2>
+<p>Se mi contatti, tratto i dati che mi fornisci (ad esempio nome, numero di telefono, indirizzo email e contenuto del messaggio) solo per risponderti e gestire la tua richiesta, sulla base della tua richiesta stessa o di misure precontrattuali. I dati sono conservati per il tempo necessario a gestire la richiesta e gli eventuali obblighi di legge. Non sono ceduti a terzi. I messaggi inviati tramite WhatsApp o email sono gestiti anche dai rispettivi fornitori del servizio.</p>
+
+<h2>I tuoi diritti</h2>
+<p>Puoi chiedere l’accesso ai tuoi dati, la rettifica, la cancellazione, la limitazione o l’opposizione al trattamento, scrivendo ai contatti indicati sopra. Hai inoltre il diritto di proporre reclamo al Garante per la protezione dei dati personali (garanteprivacy.it).</p>
+
+<p style="margin-top:2rem;font-weight:300">Ultimo aggiornamento: novembre 2026</p>
+</main>
+<footer><div class="wrap">© 2026 Angelo Casablanca – graphic designer</div></footer>
+</body>
+</html>
